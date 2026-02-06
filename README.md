@@ -7,19 +7,6 @@ This is a simple banking application I built using Java and MySQL. It handles ba
 - MySQL Database
 - Maven for project management
 
-## How to Run
-
-1. **Database Setup**
-   - Make sure you have MySQL installed and running.
-   - Create the database by running the script in `database/schema.sql`.
-   - Update `src/main/resources/database.properties` with your MySQL username and password.
-
-2. **Build and Run**
-   You can run the project using Maven:
-   ```
-   mvn clean compile
-   mvn exec:java -Dexec.mainClass="com.bank.ui.BankManagementSystem"
-   ```
 
 ## Features
 - Register new customers
